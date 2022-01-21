@@ -1,3 +1,4 @@
+//找最高分
 #include <stdio.h>
 struct student
 {
