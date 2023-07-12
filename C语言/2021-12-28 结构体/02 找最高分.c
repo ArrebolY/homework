@@ -1,4 +1,3 @@
-//æ‰¾æœ€é«˜åˆ†
 #include <stdio.h>
 struct student
 {
@@ -10,18 +9,18 @@ struct student
 int main()
 { 
 	int n,i;
-	printf("è¯·è¾“å…¥å­¦ç”Ÿäººæ•°:"); 
+	printf("ÇëÊäÈëÑ§ÉúÈËÊı:"); 
 	scanf("%d",&n);
 	int max=0;
 	for(i=0;i<n;i++)
 	{
-		printf("\nè¯·è¾“å…¥ç¬¬%dä¸ªå­¦ç”Ÿçš„å§“å:",i+1);
+		printf("\nÇëÊäÈëµÚ%d¸öÑ§ÉúµÄĞÕÃû:",i+1);
 		scanf("%s",&stu[i].name); 
-		printf("è¯·è¾“å…¥ç¬¬%dä¸ªå­¦ç”Ÿçš„æ€§åˆ«(F or M):",i+1);
+		printf("ÇëÊäÈëµÚ%d¸öÑ§ÉúµÄĞÔ±ğ(F or M):",i+1);
 		scanf(" %c",&stu[i].sex);
-		printf("è¯·è¾“å…¥ç¬¬%dä¸ªå­¦ç”Ÿçš„å¹´é¾„ï¼š",i+1);
+		printf("ÇëÊäÈëµÚ%d¸öÑ§ÉúµÄÄêÁä£º",i+1);
 		scanf("%d",&stu[i].age);
-		printf("è¯·è¾“å…¥ç¬¬%dä¸ªå­¦ç”Ÿçš„æˆç»©ï¼š",i+1);
+		printf("ÇëÊäÈëµÚ%d¸öÑ§ÉúµÄ³É¼¨£º",i+1);
 		scanf("%f",&stu[i].score);
 		if(stu[max].score<stu[i].score) 
 		{
